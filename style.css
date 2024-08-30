@@ -1,0 +1,75 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "navbar navbar navbar navbar"
+    "header header header header"
+    "image_1 image_2 image_3 image_4"
+    "information information information information"
+    "blank blank blank blank"
+    "name name name name";
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color: #edede9;
+    padding: 30px; 
+
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.header {
+    grid-area: header;
+    background-color: #eeeeee;
+    padding: 30px;
+    
+}
+
+.image_1 {
+    grid-area: image_1;
+    background-color:  #dddddd;
+    height: auto;
+}
+
+.image_2 {
+    grid-area: image_2;
+    background-color:  #dddddd;
+    height: auto;
+} 
+
+
+.image_3{
+    grid-area: image_3;
+    background-color:  #dddddd;
+    height: auto;
+}
+
+.image_4 {
+    grid-area: image_4;
+    background-color:  #dddddd;
+    height: auto;
+}
+
+.information {
+    grid-area: information;
+    background-color: #dddddd;
+    padding: 30px;
+
+}
+
+.blank {
+    grid-area: blank;
+    background-color: #eeeeee;
+    padding: 30px;
+
+}
+
+.name{
+    grid-area: name;
+    background-color: #dddddd;
+    padding: 30px;
+}
