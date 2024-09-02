@@ -13,7 +13,7 @@
 
 .navbar {
     grid-area: navbar;
-    background-color: #edede9;
+    background-color: #e3d5ca;
     padding: 30px; 
 
 }
@@ -24,7 +24,7 @@
 
 .header {
     grid-area: header;
-    background-color: #eeeeee;
+    background-color: #d5bdaf;
     padding: 30px;
     
 }
@@ -56,20 +56,20 @@
 
 .information {
     grid-area: information;
-    background-color: #dddddd;
+    background-color: #d6ccc2;
     padding: 30px;
 
 }
 
 .blank {
     grid-area: blank;
-    background-color: #eeeeee;
+    background-color: #e3d5ca;
     padding: 30px;
 
 }
 
 .name{
     grid-area: name;
-    background-color: #dddddd;
+    background-color: #d5bdaf;
     padding: 30px;
 }
