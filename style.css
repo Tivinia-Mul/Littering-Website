@@ -3,23 +3,12 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "navbar navbar navbar navbar"
     "header header header header"
+    "navbar navbar navbar navbar"
     "image_1 image_2 image_3 image_4"
     "information information information information"
     "blank blank blank blank"
     "name name name name";
-}
-
-.navbar {
-    grid-area: navbar;
-    background-color: #e3d5ca;
-    padding: 30px; 
-
-}
-
-.navbar ul{
-    list-style-type: none;
 }
 
 .header {
@@ -28,6 +17,28 @@
     padding: 30px;
     
 }
+
+.navbar {
+    grid-area: navbar;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    background-color: #e3d5ca;
+
+}
+ 
+.navbar li {
+    display: inline;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    padding: 20px;
+    background-color: #e3d5ca;
+}
+ 
+.navbar a {
+    padding: 40px;
+}
+
 
 .image_1 {
     grid-area: image_1;
