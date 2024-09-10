@@ -1,0 +1,38 @@
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nav nav nav nav"
+    "causes vid vid effect"
+    "causes vid vid effect"
+    "causes link link effect"
+    "pic_1 pic_1 pic_2 pic_3"
+    "pic_4 pic_4 pic_5 pic_5";
+}
+.navbar {
+    grid-area: navbar;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+  
+
+}
+ 
+.navbar li {
+    display: inline;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    padding: 20px;
+  
+}
+ 
+.navbar a {
+    padding: 40px;
+}
+.causes{
+    grid-area: information;
+    background-color: #d6ccc2;
+    padding: 30px;
+
+}
