@@ -36,3 +36,10 @@
     padding: 30px;
 
 }
+
+.effects{
+    grid-area: effects;
+    background-color: #d6ccc2;
+    padding: 30px;
+
+}
