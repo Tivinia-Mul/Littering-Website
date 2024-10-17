@@ -15,6 +15,7 @@
     grid-area: header;
     background-color: #d5bdaf;
     padding: 30px;
+    text-align: center;
     
 }
 
@@ -23,7 +24,8 @@
     text-align: center;
     height: 40px;
     width: 100%;
-  
+    background-color: #d5bdaf;
+
 
 }
  
@@ -32,12 +34,16 @@
     font-family: 'Bebas Neue';
     font-size: 20px;
     padding: 20px;
-  
+    background-color: #d5bdaf;
+
 }
  
 .navbar a {
     padding: 40px;
+    background-color: #d5bdaf;
+
 }
+
 
 
 .image_1 {
@@ -69,6 +75,7 @@
     grid-area: information;
     background-color: #d6ccc2;
     padding: 30px;
+    text-align: center;
 
 }
 
@@ -83,4 +90,5 @@
     grid-area: name;
     background-color: #d5bdaf;
     padding: 30px;
+    text-align: center;
 }

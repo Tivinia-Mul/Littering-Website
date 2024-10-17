@@ -1,14 +1,15 @@
+
 .container{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 2fr
+    grid-template-rows auto;
     grid-template-areas:
-    "nav nav nav nav"
-    "causes vid vid effect"
-    "causes vid vid effect"
-    "causes link link effect"
-    "image_1 image_1 image_2 image_3"
-    "image_4 image_4 image_5 image_5";
+    "navbar navbar"
+    "vid_1 causes"
+    "vid_2 effects"
+    "image_1 image_2"
+    "link link"
+    "footer footer"
 }
 .navbar {
     grid-area: navbar;
@@ -30,7 +31,7 @@
 }
 
 .causes{
-    grid-area: information;
+    grid-area: causes;
     background-color: #d6ccc2;
     padding: 30px;
 
@@ -48,28 +49,17 @@
     font-family: "Agbalumo";
     background-color: bisque;
 }
-.image_1 {
+.image_2 {
     grid-area: image_2;
     text-align: center;
     font-family: "Agbalumo";
     background-color: bisque;
 }
-.image_1 {
-    grid-area: image_3;
-    text-align: center;
-    font-family: "Agbalumo";
-    background-color: bisque;
-}
-.image_1 {
-    grid-area: image_4;
-    text-align: center;
-    font-family: "Agbalumo";
-    background-color: bisque;
-}
-.image_1 {
-    grid-area: image_5;
-    text-align: center;
-    font-family: "Agbalumo";
-    background-color: bisque;
+
+.link {
+    grid-area: link;
 }
 
+.footer {
+    grid-area: footer;
+}
