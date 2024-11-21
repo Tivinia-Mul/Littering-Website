@@ -4,6 +4,7 @@
     grid-template-columns: 1fr 2fr
     grid-template-rows auto;
     grid-template-areas:
+    "header header"
     "navbar navbar"
     "vid_1 causes"
     "vid_2 effects"
@@ -11,11 +12,21 @@
     "link link"
     "footer footer"
 }
+.header {
+    grid-area: header;
+    background-color: #e3d5ca;
+    padding: 30px;
+    text-align: center;
+    
+}
+
 .navbar {
     grid-area: navbar;
     text-align: center;
     height: 40px;
     width: 100%;
+    background-color: #e3d5ca;
+
 }
  
 .navbar li {
@@ -23,43 +34,54 @@
     font-family: 'Bebas Neue';
     font-size: 20px;
     padding: 20px;
+    background-color: #e3d5ca;
+
      
 }
 
 .navbar a {
     padding: 40px;
+    background-color: #e3d5ca;
+
 }
 
 .causes{
     grid-area: causes;
     background-color: #d6ccc2;
     padding: 30px;
-
+    text-align: center;
 }
 
 .effects{
     grid-area: effects;
     background-color: #d6ccc2;
     padding: 30px;
+    text-align: center;
 
 }
 .image_1 {
     grid-area: image_1;
     text-align: center;
     font-family: "Agbalumo";
-    background-color: bisque;
+    background-color: #e3d5ca;
 }
 .image_2 {
     grid-area: image_2;
     text-align: center;
     font-family: "Agbalumo";
-    background-color: bisque;
+    background-color: #e3d5ca;
 }
 
 .link {
     grid-area: link;
+    text-align: center;
+    background-color: #d6ccc2;
+
 }
 
 .footer {
     grid-area: footer;
+    text-align: center;
+    background-color: #d6ccc2;
+
 }

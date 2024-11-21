@@ -1,14 +1,16 @@
+
 .container{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 2fr 3fr 4 fr
+    grid-template-rows auto;
     grid-template-areas:
-    "header header header header"
-    "navbar navbar navbar navbar"
-    "image_1 image_2 image_3 image_4"
-    "information information information information"
-    "blank blank blank blank"
-    "name name name name";
+   "header header"
+    "navbar navbar"
+    "vid_1 causes"
+    "vid_2 effects"
+    "image_1 image_2"
+    "link link"
+    "footer footer" ;
 }
 
 .header {
@@ -17,6 +19,9 @@
     padding: 30px;
     text-align: center;
     
+}
+.img {
+    width: 5%;
 }
 
 .navbar {
@@ -58,9 +63,6 @@
     height: auto;
 } 
 
-.img {
-    width: 1%;
-}
 
 .image_3{
     grid-area: image_3;
@@ -78,8 +80,7 @@
     grid-area: information;
     background-color: #d6ccc2;
     padding: 30px;
-    text-align: justify;
-    line-height: 200%;
+    text-align: center;
 
 }
 
@@ -88,8 +89,6 @@
     background-color: #e3d5ca;
     padding: 30px;
     text-align: center;
-    text-align: justify;
-    line-height: 200%;
 
 }
 
